@@ -146,8 +146,8 @@ const nom=val(ev.NombreAsistente)+' '+val(ev.ApellidoAsistente);
 const ced=val(ev.NumeroIdentificacion);const dur=calcDuracion(ev.HoraInicio,ev.HoraFinal);
 const bannerH=w*35/811;
 try{doc.addImage('data:image/png;base64,'+WAVE_B64,'PNG',0,0,w,bannerH)}catch(e){}
-try{doc.addImage('data:image/png;base64,'+LOGO1_B64,'PNG',w/2-35,bannerH+8,70,19.4)}catch(e){}
-let y=bannerH+8+19.4+18;
+try{doc.addImage('data:image/png;base64,'+LOGO1_B64,'PNG',w/2-52,bannerH+10,104,28.7)}catch(e){}
+let y=bannerH+10+28.7+14;
 doc.setFont('times','bold');doc.setFontSize(16);doc.setTextColor(0,0,0);
 doc.text('TARJETA DE ASISTENCIA',w/2,y,{align:'center'});y+=11;
 doc.setFontSize(10.5);doc.setFont('times','bold');
