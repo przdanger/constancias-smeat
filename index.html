@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Constancias de Asistencia - SMEAT Cenipalma</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"><\/script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,sans-serif;background:#f0f4f8;min-height:100vh;padding:24px 16px}
@@ -162,5 +162,5 @@ doc.setFont('helvetica','normal');doc.setFontSize(7);doc.setTextColor(140,140,16
 doc.text('Documento generado por SMEAT - Cenipalma | '+new Date().toLocaleDateString('es-CO'),w/2,ht-13,{align:'center'});
 doc.save('Constancia_'+val(ev.CodigoEvento)+'_'+ced+'.pdf');
 }
-<\/script>
+</script>
 </body></html>
